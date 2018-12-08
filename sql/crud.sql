@@ -1,10 +1,10 @@
 drop table guestbook;
 
 create table guestbook(
-no       int primary key auto_increment,
+no       bigint primary key auto_increment,
 name     varchar(50) not null,
 password varchar(10) not null,
-contents text not null,
+content text not null,
 reg_date datetime not null
 );
 
